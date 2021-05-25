@@ -1,0 +1,11 @@
+@keyframes chatUserComponentsAnim {
+  from {
+  }
+  to {
+    transform: none;
+  }
+}
+.chats-user {
+  transform: translateX(-200px);
+  animation: chatUserComponentsAnim 0.5s linear forwards;
+}
